@@ -22,20 +22,19 @@ public class MainActivity extends AppCompatActivity {
     /** This method is called when the + button is clicked. */
     public void increment(View view) {
         quantity = quantity + 1;
-        display(quantity);
+        displayQuantity(quantity);
     }
 
     /** This method is called when the - button is clicked. */
     public void decrement(View view) {
         quantity = quantity - 1;
-        display(quantity);
+        displayQuantity(quantity);
     }
 
     /** This method is called when the order button is clicked. */
     public void submitOrder(View view) {
-        int price = quantity * 5;
-        String priceMessage = "Total: $" + price;
-        priceMessage = priceMessage + "\nThank you!";
+        int price = calculatePrice();
+        String priceMessage = createOrderSummary(price);
         displayMessage(priceMessage);
     }
 
@@ -46,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** This method displays the given quantity value on the screen. */
-    private void display(int number) {
+    private void displayQuantity(int numberOfCoffees) {
         TextView quantityTextView = (TextView) findViewById(
                 R.id.quantity_text_view);
-        quantityTextView.setText("" + number);
+        quantityTextView.setText("" + numberOfCoffees);
     }
 
     /** This method displays the given price on the screen. */
@@ -57,4 +56,23 @@ public class MainActivity extends AppCompatActivity {
         TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
         priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
     }
+
+    /**
+     * Calculates the price of the order.
+     *
+     * @param quantity is the number of cups of coffee ordered
+     */
+    private int calculatePrice() {
+        int price = quantity * 5;
+        return price;
+    }
+
+    private String createOrderSummary(int price) {
+        String priceMessage = "Name: Dylan Eckhart";
+        priceMessage = priceMessage + "\nQuantity: " + quantity;
+        priceMessage = priceMessage + "\nTotal: $" + price;
+        priceMessage = priceMessage + "\nThank you!";
+        return priceMessage;
+    }
+
 }
