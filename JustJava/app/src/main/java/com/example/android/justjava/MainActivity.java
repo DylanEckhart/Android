@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText textBar = (EditText) findViewById(R.id.name_insert);
         String givenName = textBar.getText().toString();
-        int price = calculatePrice();
+        int price = calculatePrice(hasWhippedCream, hasChocolate);
         String priceMessage = createOrderSummary(price, hasWhippedCream, hasChocolate, givenName);
         displayMessage(priceMessage);
     }
@@ -62,15 +62,22 @@ public class MainActivity extends AppCompatActivity {
         quantityTextView.setText("" + numberOfCoffees);
     }
 
-    /**
-     * Calculates the price of the order.
-     *
-     */
-    private int calculatePrice() {
-        int price = quantity * 5;
-        return price;
+    /** Calculates the price of the order. */
+    private int calculatePrice(boolean addWhippedCream, boolean addChocolate) {
+        int basePrice = 5;
+
+        if (addWhippedCream) {
+            basePrice = basePrice + 1;
+        }
+
+        if (addChocolate) {
+            basePrice = basePrice + 2;
+        }
+
+        return quantity * basePrice;
     }
 
+    /** This method displays the order summary */
     private String createOrderSummary(int price, boolean addWhippedCream, boolean addChocolate, String name) {
         String priceMessage = "Name: " + name;
         priceMessage += "\nAdd Whipped Cream? " + addWhippedCream;
