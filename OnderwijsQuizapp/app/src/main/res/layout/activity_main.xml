@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <!-- Vraag 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vraag 1: Wie heeft het World Wide Web uitgevonden?"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/insert_vraag_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Vraag 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vraag 2: Wat betekent de afkorting HTML?"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/insert_vraag_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Vraag 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vraag 3: Welke van deze talen is een scriptinglanguage? "
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/vraag3_antwoord1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="Python"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/vraag3_antwoord2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="HTML"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/vraag3_antwoord3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="C++"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/vraag3_antwoord4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="Java"
+            android:textSize="16sp" />
+
+        <!-- Vraag 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vraag 4: Welk teken gebruiik je voor een variabele in PHP?"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/vraag4_antwoord1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="$"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/vraag4_antwoord2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="£"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/vraag4_antwoord3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="#"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/vraag4_antwoord4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="!"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>
