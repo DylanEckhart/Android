@@ -46,6 +46,7 @@
             android:textSize="20sp" />
 
         <RadioGroup
+            android:id="@+id/vraag3_antwoorden"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -92,6 +93,7 @@
             android:textSize="20sp" />
 
         <RadioGroup
+            android:id="@+id/vraag4_antwoorden"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
