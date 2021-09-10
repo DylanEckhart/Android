@@ -55,14 +55,14 @@ public class MainActivity extends AppCompatActivity {
     boolean isAntwoordVanVraag3Correct = false;
 
     // Check if Vraag 3 is answered correctly
-    public int controlleerAntwoord3() {
+    public boolean controlleerAntwoord3() {
         RadioGroup vraag3_antwoorden = findViewById(R.id.vraag3_antwoorden);
         gegevenAntwoordVraag3 = vraag3_antwoorden.getCheckedRadioButtonId();
         RadioButton correcteAntwoordVraag3 = findViewById(R.id.vraag3_antwoord1);
         correcteIDVraag3 = correcteAntwoordVraag3.getId();
 
         isAntwoordVanVraag3Correct = gegevenAntwoordVraag3 == correcteIDVraag3;
-        return gegevenAntwoordVraag3;
+        return isAntwoordVanVraag3Correct;
     }
 
     /** Vraag 4 */
@@ -71,14 +71,14 @@ public class MainActivity extends AppCompatActivity {
     boolean isAntwoordVanVraag4Correct = false;
 
     // Check if Vraag 4 is answered correctly
-    public int controlleerAntwoord4() {
+    public boolean controlleerAntwoord4() {
         RadioGroup vraag4_antwoorden = findViewById(R.id.vraag4_antwoorden);
         gegevenAntwoordVraag4 = vraag4_antwoorden.getCheckedRadioButtonId();
         RadioButton correcteAntwoordVraag4 = findViewById(R.id.vraag4_antwoord1);
         correcteIDVraag4 = correcteAntwoordVraag4.getId();
 
         isAntwoordVanVraag4Correct = gegevenAntwoordVraag4 == correcteIDVraag4;
-        return gegevenAntwoordVraag4;
+        return isAntwoordVanVraag4Correct;
     }
 
     public void submitAnswers(View view) {
