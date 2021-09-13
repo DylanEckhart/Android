@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.296195652173913" />
+        <entry key="..\:/gitrepos/android-development/MultiScreenApp/Miwok/app/src/main/res/layout/activity_main.xml" value="0.27898550724637683" />
+        <entry key="..\:/gitrepos/android-development/MultiScreenApp/Miwok/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_colors.xml" value="0.2296195652173913" />
+        <entry key="app/src/main/res/layout/activity_family.xml" value="0.2296195652173913" />
+        <entry key="app/src/main/res/layout/activity_numbers.xml" value="0.2296195652173913" />
+        <entry key="app/src/main/res/layout/activity_phrases.xml" value="0.2296195652173913" />
       </map>
     </option>
   </component>
