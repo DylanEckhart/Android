@@ -146,19 +146,11 @@ public class MainActivity extends AppCompatActivity {
         controlleerAntwoord2();
         controlleerAntwoord3();
         controlleerAntwoord4();
-        setTextQ1();
-        setTextQ2();
-        setTextQ3();
-        setTextQ4();
         scoreText.setText(setTextQ1() + "\n" + setTextQ2() + "\n" +setTextQ3() + "\n" + setTextQ4());
     }
 
     public void submitAnswers(View view) {
         setScoreText();
-        controlleerAntwoord1();
-        controlleerAntwoord2();
-        controlleerAntwoord3();
-        controlleerAntwoord4();
     }
 
 }
