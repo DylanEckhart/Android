@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /** Vraag 1 */
+    /**
+     * Vraag 1
+     */
     String gegevenAntwoordVraag1;
     String antwoordVraag1;
     boolean isAntwoordVanVraag1Correct = false;
@@ -36,7 +38,9 @@ public class MainActivity extends AppCompatActivity {
         return isAntwoordVanVraag1Correct;
     }
 
-    /** Vraag 2 */
+    /**
+     * Vraag 2
+     */
     String gegevenAntwoordVraag2;
     String antwoordVraag2;
     boolean isAntwoordVanVraag2Correct = false;
@@ -51,7 +55,9 @@ public class MainActivity extends AppCompatActivity {
         return isAntwoordVanVraag2Correct;
     }
 
-    /** Vraag 3 */
+    /**
+     * Vraag 3
+     */
     int gegevenAntwoordVraag3;
     int correcteIDVraag3;
     boolean isAntwoordVanVraag3Correct = false;
@@ -67,7 +73,9 @@ public class MainActivity extends AppCompatActivity {
         return isAntwoordVanVraag3Correct;
     }
 
-    /** Vraag 4 */
+    /**
+     * Vraag 4
+     */
     int gegevenAntwoordVraag4;
     int correcteIDVraag4;
     boolean isAntwoordVanVraag4Correct = false;
@@ -139,14 +147,16 @@ public class MainActivity extends AppCompatActivity {
         return textScoreQ4;
     }
 
-    /** Put answers into the submit button */
+    /**
+     * Put answers into the submit button
+     */
     public void setScoreText() {
         TextView scoreText = findViewById(R.id.score_counter);
         controlleerAntwoord1();
         controlleerAntwoord2();
         controlleerAntwoord3();
         controlleerAntwoord4();
-        scoreText.setText(setTextQ1() + "\n" + setTextQ2() + "\n" +setTextQ3() + "\n" + setTextQ4());
+        scoreText.setText(setTextQ1() + "\n" + setTextQ2() + "\n" + setTextQ3() + "\n" + setTextQ4());
     }
 
     public void submitAnswers(View view) {
