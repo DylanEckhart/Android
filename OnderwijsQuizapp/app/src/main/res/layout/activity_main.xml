@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_marginHorizontal="8dp"
         android:orientation="vertical">
 
         <!-- Vraag 1 -->
@@ -132,12 +132,29 @@
 
         </RadioGroup>
 
+        <!-- Submit button -->
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="8dp"
-            android:text="Submit" />
+            android:text="Submit"
+            android:onClick="submitAnswers"/>
+
+<!--        -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="15sp"
+            android:textColor="@android:color/black" />
 
     </LinearLayout>
 </ScrollView>
