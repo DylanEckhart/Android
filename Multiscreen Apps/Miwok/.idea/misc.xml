@@ -8,7 +8,9 @@
         <entry key="app/src/main/res/layout/activity_colors.xml" value="0.2296195652173913" />
         <entry key="app/src/main/res/layout/activity_family.xml" value="0.2296195652173913" />
         <entry key="app/src/main/res/layout/activity_numbers.xml" value="0.2296195652173913" />
+        <entry key="app/src/main/res/layout/activity_numbers_click_listener.xml" value="0.2296195652173913" />
         <entry key="app/src/main/res/layout/activity_phrases.xml" value="0.2296195652173913" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3453703703703704" />
       </map>
     </option>
   </component>
