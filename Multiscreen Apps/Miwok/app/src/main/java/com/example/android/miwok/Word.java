@@ -1,7 +1,5 @@
 package com.example.android.miwok;
 
-import android.media.MediaPlayer;
-
 public class Word {
 
     /** Default translation for the word */
