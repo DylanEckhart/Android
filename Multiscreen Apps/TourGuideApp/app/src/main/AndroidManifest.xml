@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TourGuideApp">
         <activity
+            android:name=".NemoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VondelparkActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AnneFrankHuisActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RijksmuseumActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

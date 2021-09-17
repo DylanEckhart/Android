@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
+    <string name="category_rijksmuseum">Rijksmuseum</string>
+    <string name="category_annefrankhuis">Anne Frank Huis</string>
+    <string name="category_vondelpark">Vondelpark</string>
+    <string name="category_nemo">Nemo</string>
 </resources>
