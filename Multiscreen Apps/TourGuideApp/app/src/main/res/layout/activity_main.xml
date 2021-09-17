@@ -13,6 +13,7 @@
         android:background="@color/gray">
 
         <TextView
+            android:id="@+id/rijksmuseum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/category_rijksmuseum"
@@ -26,6 +27,7 @@
         android:background="@color/brown">
 
         <TextView
+            android:id="@+id/anne_frank_huis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/category_annefrankhuis"
@@ -39,6 +41,7 @@
         android:background="@color/green">
 
         <TextView
+            android:id="@+id/vondelpark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/category_vondelpark"
@@ -52,6 +55,7 @@
         android:background="@color/orange">
 
         <TextView
+            android:id="@+id/nemo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/category_nemo"
