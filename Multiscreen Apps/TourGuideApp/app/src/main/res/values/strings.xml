@@ -4,4 +4,6 @@
     <string name="category_annefrankhuis">Anne Frank Huis</string>
     <string name="category_vondelpark">Vondelpark</string>
     <string name="category_nemo">Nemo</string>
+    <string name="title_placeholder">PLACEHOLDER</string>
+    <string name="info_placeholder">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
 </resources>

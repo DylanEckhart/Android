@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/category_rijksmuseum"
-            style="@style/CategoryStyle"/>
+            style="@style/CategoryStyle" />
     </FrameLayout>
 
     <!-- Anne Frank Huis -->
