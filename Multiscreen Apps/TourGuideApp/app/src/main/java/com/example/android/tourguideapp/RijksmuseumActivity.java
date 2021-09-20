@@ -10,13 +10,15 @@ import java.util.ArrayList;
 
 public class RijksmuseumActivity extends AppCompatActivity {
 
+    String textInfoRijksmuseum = getString(R.string.info_rijksmuseum);
+    String textTitleRijksmuseum = getString(R.string.title_rijksmuseum);
+    int idImageRijksmuseum = R.drawable.rijksmuseum;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_item);
-
-        // Create text
-        ArrayList<Text> texts = new ArrayList<>();
-
     }
+
+    public com.example.android.tourguide.Attractions currentCategory = new com.example.android.tourguide.Attractions(textInfoRijksmuseum, textTitleRijksmuseum, idImageRijksmuseum);
 }

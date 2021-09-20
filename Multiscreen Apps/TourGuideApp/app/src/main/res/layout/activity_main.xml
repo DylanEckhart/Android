@@ -10,56 +10,51 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/gray">
+        android:background="@color/category_rijksmuseum">
 
         <TextView
-            android:id="@+id/rijksmuseum"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/category_rijksmuseum"
-            style="@style/CategoryStyle" />
+            android:id="@+id/rijksmuseum_home_text"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/home_rijksmuseum" />
     </FrameLayout>
 
     <!-- Anne Frank Huis -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/brown">
+        android:background="@color/category_annefrankhuis">
 
         <TextView
-            android:id="@+id/anne_frank_huis"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/category_annefrankhuis"
-            style="@style/CategoryStyle"/>
+            android:id="@+id/anne_frank_huis_home_text"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/home_annefrankhuis" />
     </FrameLayout>
 
     <!-- Vondelpark -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/green">
+        android:background="@color/category_vondelpark">
 
         <TextView
-            android:id="@+id/vondelpark"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/category_vondelpark"
-            style="@style/CategoryStyle"/>
+            android:id="@+id/vondelpark_home_text"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/home_vondelpark" />
     </FrameLayout>
 
     <!-- Nemo -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/orange">
+        android:background="@color/category_nemo">
 
         <TextView
-            android:id="@+id/nemo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/category_nemo"
-            style="@style/CategoryStyle"/>
+            android:id="@+id/nemo_home_text"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/home_nemo" />
     </FrameLayout>
-
 </LinearLayout>

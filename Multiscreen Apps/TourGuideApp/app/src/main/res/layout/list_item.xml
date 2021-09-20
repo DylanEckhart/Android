@@ -6,17 +6,16 @@
     android:minHeight="@dimen/list_item_height"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/image_rijksmuseum"
-        style="@style/ImageSubPage"
-        android:src="@drawable/rijksmuseum" />
-
     <LinearLayout
+        android:id="@+id/text_sub_page"
         style="@style/TextSubPage">
 
-        <TextView style="@style/TitleSubPage" />
+        <TextView
+            android:id="@+id/title_sub_page"
+            style="@style/TitleSubPage"/>
 
         <TextView
+            android:id="@+id/info_sub_page"
             style="@style/InfoSubPage"/>
     </LinearLayout>
 

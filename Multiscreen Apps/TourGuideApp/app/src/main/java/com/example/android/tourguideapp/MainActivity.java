@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         /* Rijksmuseum */
         // Find the View that shows the Rijksmuseum category
-        TextView rijksmuseum = findViewById(R.id.rijksmuseum);
+        TextView rijksmuseum = findViewById(R.id.rijksmuseum_home_text);
 
         // Set a click listener on that View
         rijksmuseum.setOnClickListener(new View.OnClickListener() {
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         /* Anne Frank Huis */
         // Find the View that shows the Anne Frank Huis category
-        TextView anneFrankHuis = findViewById(R.id.anne_frank_huis);
+        TextView anneFrankHuis = findViewById(R.id.anne_frank_huis_home_text);
 
         // Set a click listener on that View
         anneFrankHuis.setOnClickListener(new View.OnClickListener() {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         /* Vondelpark */
         // Find the View that shows the Vondelpark category
-        TextView vondelpark = findViewById(R.id.vondelpark);
+        TextView vondelpark = findViewById(R.id.vondelpark_home_text);
 
         // Set a click listener on that View
         vondelpark.setOnClickListener(new View.OnClickListener() {
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         /* Nemo */
         // Find the View that shows the Nemo category
-        TextView nemo = findViewById(R.id.nemo);
+        TextView nemo = findViewById(R.id.nemo_home_text);
 
         // Set a click listener on that View
         nemo.setOnClickListener(new View.OnClickListener() {
